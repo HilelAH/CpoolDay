@@ -14,4 +14,5 @@ char *my_rotate_alpha(char *sentance)
     print_char('l');
     print_char('e');
     print_char('\n');
+    return sentance;
 }
