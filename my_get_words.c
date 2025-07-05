@@ -23,5 +23,4 @@ void my_get_words(char *sentance)
             print_char(sentance[i]);
         }
     }
-    print_char('\n');
 }
