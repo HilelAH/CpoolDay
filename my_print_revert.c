@@ -24,5 +24,4 @@ void my_print_revert(char *toRev)
     for (int i = 0; i < len; i++) {
         print_char(rev[i]);
     }
-    print_char('\n');
 }
