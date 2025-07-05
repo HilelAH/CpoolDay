@@ -1,5 +1,12 @@
 void print_char(char c);
-int my_len(char *c);
+
+int my_len(char *c)
+{
+    int i = 0;
+
+    for (; c[i] != '\0'; i++);
+    return i;
+}
 
 void my_print_revert(char *toRev)
 {
